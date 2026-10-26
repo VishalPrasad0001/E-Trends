@@ -1,0 +1,114 @@
+/* #Shop page */
+#page-header {
+    background-image: url(img/banner/b1.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-header h2,
+#page-header p {
+    color: #fff;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #1aa6be;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination i {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* single product page style sheet😑😐😐😐😐😐😑😑😐😶😏😏🙄🙄😏 */
+
+
+#product-details {
+    display: flex;
+    margin-top: 20px;
+}
+
+#product-details .single-product-img {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.small-img-column {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#product-details .single-product-details {
+    width: 60%;
+    padding-top: 30px;
+}
+
+
+#product-details .single-product-details #h4-padding {
+    padding: 40px 0 20px 0;
+}
+
+#product-details .single-product-details h2 {
+    font-size: 26px;
+}
+
+#product-details .single-product-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#product-details .single-product-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 17px;
+    font-size: 16px;
+    outline: none;
+    margin-right: 10px;
+}
+
+#product-details .single-product-details button {
+    background: #1aa6be;
+    color: #fff;
+}
+
+#product-details .single-product-details span {
+    line-height: 24px;
+    color: #465b52;
+}
+
+/* # Single product media Query.😊😉😋😊 */
+@media (max-width: 477px) {
+    #product-details {
+        /* display: flex; */
+        flex-direction: column;
+    }
+    #product-details .single-product-img {
+        width: 100%;
+        
+    }
+    #product-details .single-product-details {
+        width: 100%;
+        
+    }
+}

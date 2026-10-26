@@ -1,0 +1,143 @@
+#kart-header {
+    background: url(img/about/banner.png);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#kart-header h2,
+#kart-header p {
+    color: #fff;
+}
+
+#kart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#kart table img {
+    width: 70px;
+}
+
+#kart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+#kart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+#kart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+
+#kart table td:nth-child(4),
+#kart table td:nth-child(5),
+#kart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#kart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#kart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#kart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+#kart table tbody tr td{
+    padding-top: 15px;
+}
+#kart table tbody tr td{
+    font-size: 13px;
+}
+#kart table tbody tr td a{
+    color: #000;
+}
+#kart-add{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+#coupon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+}
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+#coupon button,
+#subtotal button{
+    background-color: #1aa6be;
+    color: #fff;
+    padding: 10px 20px;
+}
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+#subtotal table{
+    border-collapse:collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#subtotal table tr td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* Start Media Query😁😁😚 */
+@media only screen and (max-width:799px){
+    #kart{
+        overflow-x: auto;
+    }
+
+}
+@media (max-width: 477px){
+    #kart-add {
+        display: flex;
+        flex-direction: column;
+    }
+    #coupon {
+        width: 100%;
+        text-align: center;
+     
+    }
+    #subtotal {
+        width: 100%;
+        padding: 20px;
+    }
+}

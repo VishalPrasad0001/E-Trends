@@ -1,0 +1,81 @@
+#about-header {
+    background: url(img/about/banner.png);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-header h2,
+#about-header p {
+    color: #fff;
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+
+}
+
+#about-head img {
+    width: 40%;
+    height: auto;
+    margin-right: 40px;
+}
+
+#about-app {
+    text-align: center;
+}
+
+#about-app h1 a {
+    color: #1aa6be;
+}
+
+#about-app .video {
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+
+#about-app .video video {
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+/* Start Media Query😁😁😚 */
+@media only screen and (max-width:799px){
+    #about-head {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #about-head img {
+        width:100%;
+    
+    }
+    #about-app .video {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:477px) {
+
+    #about-head {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #about-head img {
+        width: 100%;
+    }
+
+    #about-app .video {
+        width: 100%;
+
+    }
+}
